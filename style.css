@@ -1,17 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&family=Roboto:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&family=Roboto:wght@300&display=swap');
+
 *{
     margin: 0%;
     padding: 0%;
     font-family: calibri;
     box-sizing: border-box;
-    color: white;
+    color: rgb(255, 255, 255);
 }
 
 html, body{
     height: 100%;
     background-image: url(./Img.jpg);
     background-size: cover;
+    width: 100%;
+    object-fit: cover;
 }
 
 .sidebar{
@@ -25,17 +28,17 @@ html, body{
 
 a, i{
     text-decoration: none;
-    color: white;
+    color: rgb(255, 255, 255);
 }
 
 .a{
     display: block;
     text-align: left;
     padding-top: 16px;
-    border-bottom: 1px solid gray;
-    padding-left: 20px;
+    border-bottom: 1px solid rgb(128, 128, 128);
+    padding-left: 32px;
     font-size: 24px;
-    color: white;
+    color: rgb(255, 255, 255);
     padding-bottom: 16px;
     transition-duration: 0.4s;
     user-select: none;
@@ -58,7 +61,7 @@ header{
 }
 
 hr{
-    border: 1px gray solid;
+    border: 1px rgb(128, 128, 128) solid;
 }
 
 @media only screen and (max-width: 600px) {
@@ -120,7 +123,7 @@ p{
     left: 210px;
     font-size: 22px;
     color: orangered;
-    transition-duration: 0.4s;
+    transition-duration: all ease 0.4s;
 }
 
 #link:hover{
